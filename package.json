@@ -1,0 +1,22 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "A todo application to learn the basics of jwt authentication",
+  "scripts": {
+    "dev": "concurrently \"npm:dev:client\" \"npm:dev:server\"",
+    "dev:client": "npm run dev --workspace=@todo-app/client",
+    "dev:server": "npm run dev --workspace=@todo-app/api",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "workspaces": [
+    "apps/*"
+  ],
+  "author": "Fiantso Harena",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "concurrently": "^9.2.0",
+    "prettier": "^3.6.2"
+  }
+}
