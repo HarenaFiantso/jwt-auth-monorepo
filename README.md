@@ -178,7 +178,3 @@ DATABASE_URL=the_url_database
 ## **📄 License**
 
 This project is licensed under the **MIT License**.
-
----
-
-**🎉 Ready to dive in? Start coding and have fun!** 🚀
